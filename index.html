@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><!--Head element. Things in the head element will not explicitly be seen on the webpage.-->
+ <!--Head element. Things in the head element will not explicitly be seen on the webpage.-->
+<head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Document</title><!--Title elemnt goes inside of the head, and the title is the text on the "tab" on the webpage-->
-</head>
-<body><!--Body element. Everything inside of the body element will be seen on the webpage.-->
- <!--Headers start from 1 and end at 6. 1 is the biggest header where as 6 is the smallest. Make sure you put them in the body element, NOT the head element.-->
-  <h1>I am heading 1</h1>
-  <h2>I am heading 2</h2>
-  <h3>I am heading 3</h3>
-  <h4>I am heading 4</h4>
-  <h5>I am heading 5</h5>
-  <h6>I am heading 6</h6>
-</body>
 
+</head>
+<!--Body element. Everything inside of the body element will be seen on the webpage.-->
+
+<body>
+
+ <!--Headers start from 1 and end at 6. 1 is the biggest header where as 6 is the smallest. Make sure you put them in the body element, NOT the head element.-->
+  <!--header should be on top of the paragraph, except for certain cases. Also note that if you put a lot of spaces in between words, as above, html does not write that on the webpage explicitly because it is whitespace collapsing-->
+ <h1>header              1</h1>
+<!--paragraph tag is where you should put... paragraphs. dont put them in the header.-->
+<!--the Lorem command with emmet will be used as a filler text in order to test how something is going to look on your webpage, without needed the actual content that will go on your webpage.-->
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat temporibus possimus, non architecto eveniet unde.</p>
+ <!--Very cool how easy it is to bring images into a webpage with emmet. I wish I would have known this for my ASP.NET project! src means source, and is the file path that the image is located in. You can either right click the image on the file explorer on the left to get the file path, or just simply type / and path to it using emmet if the picture is in the same folder as your 
+ project(as it should be)-->
+ <h3>image of a beagle in the project folder.</h3>
+<img src="Images/beagle.jfif" alt="image of a beagle"> 
+<h3>image of a jack russel, from a website.</h3>
+<img src="https://dogtime.com/assets/uploads/2009/11/jack-russell-dog-names-1280x720.jpg" alt="image of a jack russell">
+</body>
 </html>
